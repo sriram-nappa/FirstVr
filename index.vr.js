@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
     AppRegistry,
     asset,
@@ -15,7 +15,7 @@ class Task extends Component {
     }
 }
 
-export default class VRApp extends React.Component {
+export default class FirstVr extends Component {
     render() {
         return ( 
             <View>
@@ -34,4 +34,4 @@ export default class VRApp extends React.Component {
     }
 };
 
-AppRegistry.registerComponent('VRApp', () => VRApp);
+AppRegistry.registerComponent('VRApp', () => FirstVr);
